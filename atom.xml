@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KBScript</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://mrkou47.github.io/"/>
+  <updated>2019-04-28T07:45:54.177Z</updated>
+  <id>http://mrkou47.github.io/</id>
+  
+  <author>
+    <name>MrKou47</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习访问者模式</title>
+    <link href="http://mrkou47.github.io/2018/03/29/understand-visitor-pattern-in-javascript/"/>
+    <id>http://mrkou47.github.io/2018/03/29/understand-visitor-pattern-in-javascript/</id>
+    <published>2018-03-29T03:41:55.000Z</published>
+    <updated>2019-04-28T07:45:54.177Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近在学习如何写一个 &lt;em&gt;babel-plugin&lt;/em&gt; 的时候，发现 babel 在设计插件系统的时候，使用了 visitor pattern，遂学习了一下此模式，记录于此。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="javascript" scheme="http://mrkou47.github.io/tags/javascript/"/>
+    
+      <category term="设计模式" scheme="http://mrkou47.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dynamic import 介绍</title>
+    <link href="http://mrkou47.github.io/2018/03/27/how-could-babel-complier-dynamic-import/"/>
+    <id>http://mrkou47.github.io/2018/03/27/how-could-babel-complier-dynamic-import/</id>
+    <published>2018-03-27T12:19:41.000Z</published>
+    <updated>2019-04-28T08:04:44.848Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Dynamic import相对于 static import提供了一种新的 &lt;em&gt;function-lick&lt;/em&gt; 的形式来实现 &lt;em&gt;import&lt;/em&gt;。这篇文章通过介绍这两种 &lt;em&gt;import&lt;/em&gt; 的方式来解释两者的差异，同时也根据 &lt;em&gt;babel&lt;/em&gt; 来学习一下 babel 对于此新语法的处理。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="babel" scheme="http://mrkou47.github.io/tags/babel/"/>
+    
+      <category term="编译相关" scheme="http://mrkou47.github.io/tags/%E7%BC%96%E8%AF%91%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用webpack+express+typescript+react搭建前端框架(三):Express 服务端配置</title>
+    <link href="http://mrkou47.github.io/2017/01/27/webpack2/"/>
+    <id>http://mrkou47.github.io/2017/01/27/webpack2/</id>
+    <published>2017-01-27T14:01:00.000Z</published>
+    <updated>2019-04-24T06:42:11.572Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这次我们来配置一下express 来运行我们的代码&lt;br&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mrkou47.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="typescript" scheme="http://mrkou47.github.io/tags/typescript/"/>
+    
+      <category term="webpack" scheme="http://mrkou47.github.io/tags/webpack/"/>
+    
+      <category term="express" scheme="http://mrkou47.github.io/tags/express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>typescript interface 与 type 声明类型的区别</title>
+    <link href="http://mrkou47.github.io/2017/01/27/different-between-interface-and-type/"/>
+    <id>http://mrkou47.github.io/2017/01/27/different-between-interface-and-type/</id>
+    <published>2017-01-27T03:50:13.000Z</published>
+    <updated>2019-04-28T07:39:04.028Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近做项目用的是 &lt;code&gt;ant design&lt;/code&gt;, 正好也是用 &lt;code&gt;ts&lt;/code&gt; 写的, 就顺便看了看源码。结果发现有些类型声明还用了 &lt;code&gt;type&lt;/code&gt; 来写(这是什么鬼), 于是赶紧google一下, 搁这里记录一手&lt;br&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mrkou47.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="typescript" scheme="http://mrkou47.github.io/tags/typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用webpack+express+typescript+react搭建前端框架(二):webpack2 配置</title>
+    <link href="http://mrkou47.github.io/2016/12/31/webpack1/"/>
+    <id>http://mrkou47.github.io/2016/12/31/webpack1/</id>
+    <published>2016-12-31T13:20:28.000Z</published>
+    <updated>2019-04-24T06:42:11.572Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mrkou47.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="typescript" scheme="http://mrkou47.github.io/tags/typescript/"/>
+    
+      <category term="webpack" scheme="http://mrkou47.github.io/tags/webpack/"/>
+    
+      <category term="express" scheme="http://mrkou47.github.io/tags/express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用webpack+express+typescript+react搭建纯前端框架(一):基础构建</title>
+    <link href="http://mrkou47.github.io/2016/12/02/webpack/"/>
+    <id>http://mrkou47.github.io/2016/12/02/webpack/</id>
+    <published>2016-12-01T16:07:21.000Z</published>
+    <updated>2019-04-24T06:42:11.572Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mrkou47.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="typescript" scheme="http://mrkou47.github.io/tags/typescript/"/>
+    
+      <category term="webpack" scheme="http://mrkou47.github.io/tags/webpack/"/>
+    
+      <category term="react" scheme="http://mrkou47.github.io/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>魔兽电影上映前要做的事</title>
+    <link href="http://mrkou47.github.io/2016/05/16/wow/"/>
+    <id>http://mrkou47.github.io/2016/05/16/wow/</id>
+    <published>2016-05-15T17:38:34.000Z</published>
+    <updated>2019-04-28T07:39:07.248Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="瞎写什么" scheme="http://mrkou47.github.io/categories/%E7%9E%8E%E5%86%99%E4%BB%80%E4%B9%88/"/>
+    
+    
+      <category term="World of Warcraft" scheme="http://mrkou47.github.io/tags/World-of-Warcraft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github+hexo+nodejs搭建个人博客</title>
+    <link href="http://mrkou47.github.io/2016/04/01/how-to-create-hexo-blog/"/>
+    <id>http://mrkou47.github.io/2016/04/01/how-to-create-hexo-blog/</id>
+    <published>2016-04-01T08:08:29.000Z</published>
+    <updated>2019-04-28T07:42:27.414Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这个东西也是拖了好久..回想起当初踩过的坑现在还是历历在目啊..因为网上大多数的教程都是老版本的，不是git老，就是nodejs,npm的版本太低，所以坑大多数都踩在这里了。不多说了，上干货。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mrkou47.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="hexo" scheme="http://mrkou47.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>移动端web小结</title>
+    <link href="http://mrkou47.github.io/2016/03/10/mobile-front-end/"/>
+    <id>http://mrkou47.github.io/2016/03/10/mobile-front-end/</id>
+    <published>2016-03-10T15:48:32.000Z</published>
+    <updated>2019-04-28T07:42:33.622Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写了这么长时间的移动端，今天总结一下移动端页面的各种坑与技巧，省着以后在趟了&amp;gt;_&amp;gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mrkou47.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="other" scheme="http://mrkou47.github.io/tags/other/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS:函数与对象</title>
+    <link href="http://mrkou47.github.io/2016/02/21/function-and-object/"/>
+    <id>http://mrkou47.github.io/2016/02/21/function-and-object/</id>
+    <published>2016-02-21T13:50:13.000Z</published>
+    <updated>2019-04-28T07:39:39.498Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mrkou47.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="javascript" scheme="http://mrkou47.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过js获取并修改元素样式</title>
+    <link href="http://mrkou47.github.io/2016/02/10/change-css-use-js/"/>
+    <id>http://mrkou47.github.io/2016/02/10/change-css-use-js/</id>
+    <published>2016-02-10T06:36:22.000Z</published>
+    <updated>2019-04-28T07:41:22.849Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mrkou47.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="javascript" scheme="http://mrkou47.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用js实现数据结构中的排序</title>
+    <link href="http://mrkou47.github.io/2016/01/30/data-structure-sort/"/>
+    <id>http://mrkou47.github.io/2016/01/30/data-structure-sort/</id>
+    <published>2016-01-30T14:31:59.000Z</published>
+    <updated>2019-04-28T07:38:29.373Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mrkou47.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="javascript" scheme="http://mrkou47.github.io/tags/javascript/"/>
+    
+      <category term="数据结构" scheme="http://mrkou47.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+</feed>
