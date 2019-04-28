@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.site-logo > g {
+  transition: all .6s;
+  -webkit-transition: all .6s;
+}
+
+.site-logo:hover > g {
+  fill: #fff;
+}
+
+.navbar-inner.lightnav-alt .site-logo:hover > g {
+  fill: #000;
+}
+
+
+
