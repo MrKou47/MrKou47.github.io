@@ -636,6 +636,7 @@ nav i.icon-basic-eye {
 /* Bug fix */
 #sb-site {
 	min-height:100% !important;
+	z-index: 100;
 }
 .learnmore {
 	position: absolute;
@@ -657,7 +658,7 @@ nav i.icon-basic-eye {
 	}
 }
 button.menu-icon {
-	position: fixed;
+	position: absolute;
 	right: 30px;
 	top: 21px;
 	margin-top: 0;
