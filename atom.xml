@@ -63,11 +63,12 @@
     <link href="http://mrkou47.github.io/2018/03/27/how-could-babel-complier-dynamic-import/"/>
     <id>http://mrkou47.github.io/2018/03/27/how-could-babel-complier-dynamic-import/</id>
     <published>2018-03-27T12:19:41.000Z</published>
-    <updated>2019-04-28T08:04:44.848Z</updated>
+    <updated>2019-06-28T06:39:47.042Z</updated>
     
     <summary type="html">
     
       &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Dynamic import相对于 static import提供了一种新的 &lt;em&gt;function-lick&lt;/em&gt; 的形式来实现 &lt;em&gt;import&lt;/em&gt;。这篇文章通过介绍这两种 &lt;em&gt;import&lt;/em&gt; 的方式来解释两者的差异，同时也根据 &lt;em&gt;babel&lt;/em&gt; 来学习一下 babel 对于此新语法的处理。&lt;/p&gt;
+&lt;h2 id=&quot;Update-2019-06-26&quot;&gt;&lt;a href=&quot;#Update-2019-06-26&quot; class=&quot;headerlink&quot; title=&quot;Update 2019-06-26&quot;&gt;&lt;/a&gt;Update 2019-06-26&lt;/h2&gt;&lt;p&gt;最近在学习 &lt;a href=&quot;https://www.npmjs.com/package/jison&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;jison&lt;/a&gt;, 一个 nodejs 环境下的 bison 实现。期间也了解了一下 Babylon 关于解析 JS 的相关问题。&lt;a href=&quot;https://stackoverflow.com/questions/46780413/why-babel-uses-a-top-down-parser&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里&lt;/a&gt;是一个比较有意思的问题链接。&lt;/p&gt;
     
     </summary>
     

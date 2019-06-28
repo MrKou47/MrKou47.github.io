@@ -226,6 +226,7 @@
         </div>
         <div class="col-md-8 col-md-offset-2">
       		<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Dynamic import相对于 static import提供了一种新的 <em>function-lick</em> 的形式来实现 <em>import</em>。这篇文章通过介绍这两种 <em>import</em> 的方式来解释两者的差异，同时也根据 <em>babel</em> 来学习一下 babel 对于此新语法的处理。</p>
+<h2 id="Update-2019-06-26"><a href="#Update-2019-06-26" class="headerlink" title="Update 2019-06-26"></a>Update 2019-06-26</h2><p>最近在学习 <a href="https://www.npmjs.com/package/jison" target="_blank" rel="noopener">jison</a>, 一个 nodejs 环境下的 bison 实现。期间也了解了一下 Babylon 关于解析 JS 的相关问题。<a href="https://stackoverflow.com/questions/46780413/why-babel-uses-a-top-down-parser" target="_blank" rel="noopener">这里</a>是一个比较有意思的问题链接。</p>
 <a id="more"></a>
 <h2 id="Static-import"><a href="#Static-import" class="headerlink" title="Static import"></a>Static import</h2><p>早在去年九月(2017.09)，chrome 61开始支持在模块系统中使用 <em>es2015</em> 的 <em>import</em> 语法。</p>
 <p>观察下面的 <code>./utils.mjs</code> 模块：</p>
@@ -285,7 +286,7 @@
 <p>实际上，我们可以把 <em>babylon</em> 解析代码的过程简单理解为：提取关键字 -&gt; 继续解析后面的代码直到能完整的生成之前关键字的AST节点 -&gt; 调用了finishToken，然后继续生成下一个节点 -&gt; 解析到文件结尾，结束 这样一个过程。 重点的过程就是在解析到一个keyword之后对后面字符的解析。<em>babylon</em> 对特定的语法都有相关的函数来完成接下来的解析，如 <code>parseVarStatement</code>, <code>parseIfStatement</code> 等等。每一个 keyword 对应的解析函数，都对接下来的 解析到的 <em>单词 or 字符</em> 都有相应的期望值，<em>babylon</em> 会在此处来决定是继续解析来完成当前节点的渲染还是抛出异常。</p>
 <h2 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h2><p>作者本来在使用 <a href="https://github.com/faceyspacey/react-universal-component" target="_blank" rel="noopener">react-universal-component</a> 出现了问题无法解决，遂打算自己实现一下这种 component，没想到竟然走到了这个地方。。<br>本文对于 <em>babylon</em> 的解析过程的解释还是忽略了很多细节的成分，同时也仅仅对 变量声明 这个case做了分析。并且，对于自定义的 babel plugin 的使用场景还未做分析，而仅仅分析了内置的 plugin 的使用场景。但实际上 <em>babylon</em> 的核心也就是这些东西。通过理解这样一个生成 AST 的过程，以后也可以尝试着写一个自己的 js parser。毕竟 ECMA  也只是约定了语法规范而没有约定 AST 的规范。</p>
 <p><em>TO BE CONTINUE</em></p>
-<p><a href="https://tc39.github.io/proposal-dynamic-import" target="_blank" rel="noopener">tc39/proposal-dynamic-import</a><br><a href="https://developers.google.com/web/updates/2017/11/dynamic-import" target="_blank" rel="noopener">google/dynamic-import</a><br><a href="https://medium.com/@WebReflection/javascript-dynamic-import-export-b0e8775a59d4" target="_blank" rel="noopener">medium/dynamic-import</a></p>
+<h2 id="Refs"><a href="#Refs" class="headerlink" title="Refs"></a>Refs</h2><p><a href="https://tc39.github.io/proposal-dynamic-import" target="_blank" rel="noopener">tc39/proposal-dynamic-import</a><br><a href="https://developers.google.com/web/updates/2017/11/dynamic-import" target="_blank" rel="noopener">google/dynamic-import</a><br><a href="https://medium.com/@WebReflection/javascript-dynamic-import-export-b0e8775a59d4" target="_blank" rel="noopener">medium/dynamic-import</a></p>
 
             <div class="clearfix"></div>
             <hr class="nogutter">
